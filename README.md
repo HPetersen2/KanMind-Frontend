@@ -29,10 +29,3 @@ Dieses Frontend wurde bewusst mit **Vanilla JavaScript** erstellt, um die folgen
 - **Lernen durch Anpassung**: Schüler können den Code anpassen, um kleine Änderungen vorzunehmen und Frontend-Konzepte besser zu verstehen.
 - **Backend-Erweiterung**: Das Projekt lässt sich einfach an das bestehende Django-Backend `KanMind` anbinden.
 
----
-
-## Hinweis
-
-Dieses Projekt ist **ausschließlich für Schüler der Developer Akademie** gedacht und nicht zur freien Nutzung oder Weitergabe freigegeben.
-
----
