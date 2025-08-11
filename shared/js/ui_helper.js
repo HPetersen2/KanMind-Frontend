@@ -39,10 +39,16 @@ function setError(valid, id) {
 }
 
 function getInitials(fullname) {
-    const parts = fullname.trim().split(" ");
-    const initials = parts[0][0].toUpperCase() + parts[1][0].toUpperCase();
-    return initials;
+  if (typeof fullname !== 'string' || fullname.trim().length === 0) {
+    return '';
   }
+
+  const parts = fullname.trim().split(' ');
+  const first = parts[0]?.[0]?.toUpperCase() ?? '';
+  const second = parts[1]?.[0]?.toUpperCase() ?? '';
+
+  return first + second;
+}
 
 
 
